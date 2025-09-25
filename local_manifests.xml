@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Remotes -->
+  <remote name="HaiKito" fetch="https://github.com/HaiKito18" />
+  
+  <!-- Device Trees -->
+  <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" remote="HaiKito" revision="A16" />
+
+  <!-- SELinux policies -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr_lineage23" remote="HaiKito" revision="lineage-23" />
+
+  <!-- Hardware Supports -->
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="HaiKito" revision="main" />
+
+  <!-- kernel tree -->
+  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel_a16" remote="HaiKito" revision="sixteen">
+    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
+  </project>
+
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/blossom" name="Vendor_xiaomi_blossom" remote="HaiKito" revision="A16" />
+
+  <!-- MiuiCamera -->
+  <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="HaiKito" revision="main" />
+  
+  <!-- FmRadio -->
+  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="HaiKito" revision="mtk" />
+  
+</manifest>
