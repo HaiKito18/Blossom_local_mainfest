@@ -4,7 +4,7 @@
   <!-- Remotes -->
   <remote name="HaiKito" fetch="https://github.com/HaiKito18" />
   <remote name="Aspro" fetch="https://github.com/AsTechpro20" />  
-  <remote name="Gay" fetch="https://git.gay/HaiKito18" 
+  <remote name="Gay" fetch="https://git.gay/HaiKito18" /> 
 
   <!-- Device Trees -->
   <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" remote="HaiKito" revision="A15" />
