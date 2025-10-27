@@ -3,27 +3,32 @@
   
   <!-- Remotes -->
   <remote name="HaiKito" fetch="https://github.com/HaiKito18" />
-  
+  <remote name="Aspro" fetch="https://github.com/AsTechpro20" />  
+  <remote name="Gay" fetch="https://git.gay/HaiKito18" 
+
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" remote="HaiKito" revision="A16" />
+  <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" remote="HaiKito" revision="A15" />
 
   <!-- SELinux policies -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr_lineage23" remote="HaiKito" revision="lineage-23" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Aspro" revision="lineage-22" />
 
   <!-- Hardware Supports -->
-  <project path="hardware/mediatek" name="hardware_mediatek" remote="HaiKito" revision="main" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Aspro" revision="lineage-22.2" />
 
   <!-- kernel tree -->
-  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel_a16" remote="HaiKito" revision="sixteen">
+  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="Aspro" revision="Udon_v2">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="Vendor_xiaomi_blossom" remote="HaiKito" revision="A16" />
+  <project path="vendor/xiaomi/blossom" name="Vendor_xiaomi_blossom" remote="HaiKito" revision="A15" />
 
   <!-- MiuiCamera -->
   <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="HaiKito" revision="main" />
   
+  <!-- ViaBrowser -->
+  <project path="packages/apps/ViaBrowser" name="ViaBrowser" remote="Gay" revision="main" />
+
   <!-- FmRadio -->
   <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="HaiKito" revision="mtk" />
   
