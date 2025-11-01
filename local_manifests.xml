@@ -21,7 +21,7 @@
   </project>
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="Vendor_xiaomi_blossom" remote="HaiKito" revision="A15" />
+  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="Gay" revision="lineage-22.2" />
 
   <!-- MiuiCamera -->
   <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="HaiKito" revision="main" />
