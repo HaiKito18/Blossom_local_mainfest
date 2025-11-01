@@ -7,7 +7,7 @@
   <remote name="Gay" fetch="https://git.gay/HaiKito18" /> 
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" remote="HaiKito" revision="A15" />
+  <project path="device/xiaomi/blossom" name="device_xiaomi_Blossom" remote="Gay" revision="A15" />
 
   <!-- SELinux policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Aspro" revision="lineage-22" />
